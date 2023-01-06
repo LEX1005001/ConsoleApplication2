@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -44,9 +44,9 @@ int main()
 {
 	maxNumber = d6;
 }
-if (d7 > maxNumber)
-{
+	if (d7 > maxNumber)
+	{
 	maxNumber = d7;
-}
-cout << "Your max number: " << maxNumber;
+	}
+	cout << "Your max number: " << maxNumber;
 }
